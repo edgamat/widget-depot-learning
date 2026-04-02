@@ -41,7 +41,7 @@ The goal of this phase is to observe how to interact with Claude Code. I will ma
 
 ## Following Phases
 
-At the end of each phase, I will pause development, review the friction log, and build out the scaffolding the previous experience tells me what I actually need. This may include updates to the CLAUDE.md file  ith project context and conventions, custom slash commands for recurring  workflows, and structured templates for common tasks such as story creation or test generation. I expect that I will end up using some of the 'advice' available to me from articles, tutorials and videos. I will try and focus on assessing their impact objectively.
+At the end of each phase, I will pause development, review the friction log, and build out the scaffolding the previous experience tells me what I actually need. This may include updates to the CLAUDE.md file with project context and conventions, custom slash commands for recurring  workflows, and structured templates for common tasks such as story creation or test generation. I expect that I will end up using some of the 'advice' available to me from articles, tutorials and videos. I will try and focus on assessing their impact objectively.
 
 I will then continue the same project with this improved setup into the next phase. I will attempt to evaluate improvements in productivity and output quality.
 
