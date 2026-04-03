@@ -1,3 +1,33 @@
+## 2026-04-03 - Matt Edgar - Phase 1
+
+**Working on** Technical Stack
+**Duration:** 1.5 hours
+
+**What happened:**
+I asked Claude Code to draft a set of user stories for the first Milestone. Just the titles
+and descriptions, based on a template I provided. It did this very well.
+
+I worked on describing the technology stack I wanted to use for this project. I decided to use
+a set of technologies that i user every day in order. If I choose a new technology that i am 
+not familar with, I feel it will impact my ability to measure the inpact of using Claude Code. As
+I become more familar with Claude Code, I may explore some other technologies.
+
+I decided to document a high-level set of architecture decisions and choices in a single file. I
+asked Claude Code to create a folder of coding standards for it to follow. It did well with the
+architecture file I asked to be created. I got confused and was searching for the project files 
+in the repo. I stopped it and informed it that no source code existed yet. It then created the 
+Markdown file.
+
+**Friction points:**
+None
+
+**What worked well:**
+- Breaking down milestone into user stories.
+- Defining coding standards
+
+**Questions or ideas:**
+None 
+
 ## 2026-04-02 - Matt Edgar - Phase 1
 
 **Working on** Product Requirements Document
