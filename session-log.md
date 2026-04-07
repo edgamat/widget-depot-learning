@@ -1,3 +1,87 @@
+## 2026-04-07 - Matt Edgar - Phase 1
+
+**Working on** First Story
+**Duration:** 1.5 hours
+
+**What happened:**
+I asked Claude Code (CC) to run through the tasks for the first story.
+
+CC added the 'simple' DI container injection. The endpoints were added to the Program.cs.
+
+I found the requests to approve actions (gh issue, git pull, etc.) were good to follow, rather than
+allow CC to run the commands without my explicit approval. But I can see that some of these i should
+lte it run.
+
+**Friction points:**
+None
+
+**What worked well:**
+It added the EF Core and Blazor features with minimal adjustments from me.
+
+**Questions or ideas:**
+I need to add some additional infrastructure to the projects to follow the patterns I want. Then I
+need to add more context to ensure CC will follow the patterns.
+
+I need to come up with a set of actions I let CC perform without me having to approve.
+
+Consumed 11% of available tokens (5 hour window)
+
+## 2026-04-06 - Matt Edgar - Phase 1
+
+**Working on** First Story
+**Duration:** 1.5 hours
+
+**What happened:**
+I asked for help refining the first story in the project. It did well. I then asked Claude Code to
+refactor the UI "Components" folder to use a "vertical slice architecture" structure. It did pretty well,
+but I had to give it a few pointers. This took an significant amount of time and tokens. It consumed 26%
+of my 5-hour window budget of tokens.
+
+Next, I asked Claude to break down the first story into tasks. The first thing it did was started
+scanning the git commit history. I was very confused. I stopped it mid-task and asked why it was doing
+that. Turns out I had the wrong file selected, so it decided to try and find the story in question. Once
+I selected the correct file that contained the story, it started up again.
+
+This time it started scanning the entire codebase. I stopped it again and asked:
+
+Me - Why are you scanning the repo when I asked you to break the story down into tasks?
+CC - Fair point. I have everything I need from the story. Let me write the plan now.
+Me - No, stop. I want to know why you were scanning the repo?
+CC - I'm in plan mode, which instructs me to explore the codebase before planning. But you're right
+that it wasn't necessary here — the story is self-contained, you told me what exists, and breaking
+a story into tasks doesn't require reading source files. I over-applied the plan mode workflow
+to a task that didn't need it.
+
+I found this interesting. This is not what I expected the plan mode instructions to entail.
+
+I asked how I could adjust the plan mode behavior. It suggested I add a section to the CLAUDE.md file,
+so I did:
+
+```markdown
+## Plan Mode
+
+Do not explore the codebase during planning unless the task requires it or the user explicitly asks.
+If the user's request is self-contained (e.g., breaking down a story, writing a plan from a spec),
+go straight to planning.
+```
+
+Once it was finished I asked it to use the GitHub CLI to add issues to the repo for the Story and the associated
+tasks. It did this very well.
+
+**Friction points:**
+In plan mode it (seemingly) wasted time (and tokens) scanning the codebase for no reason. In addition,
+rather than ask for clarification on a request it was given, it tried to figure it out on its own. Not
+unlike an eager intern. 
+
+**What worked well:**
+- Breaking down a story into tasks was done very well.
+- Using the GitHub CLI was seamless (I had provided good instructions in the CLAUDE.md file previously)
+
+**Questions or ideas:**
+It seems that the context we provide the models is necessary to keep the response behavior focused
+and not wasting time and tokens. The principle of least surprise does not apply here. The default
+behavior is not obvious (at least to me).
+
 ## 2026-04-03 - Matt Edgar - Phase 1
 
 **Working on** Technical Stack
@@ -9,8 +93,8 @@ and descriptions, based on a template I provided. It did this very well.
 
 I worked on describing the technology stack I wanted to use for this project. I decided to use
 a set of technologies that i user every day in order. If I choose a new technology that i am 
-not familar with, I feel it will impact my ability to measure the inpact of using Claude Code. As
-I become more familar with Claude Code, I may explore some other technologies.
+not familiar with, I feel it will impact my ability to measure the impact of using Claude Code. As
+I become more familiar with Claude Code, I may explore some other technologies.
 
 I decided to document a high-level set of architecture decisions and choices in a single file. I
 asked Claude Code to create a folder of coding standards for it to follow. It did well with the
