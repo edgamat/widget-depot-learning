@@ -1,3 +1,40 @@
+## 2026-04-10 - Matt Edgar - Phase 1
+
+**Working on** Second Story
+**Duration:** 2.0 hours
+
+**What happened:**
+I asked Claude Code (CC) to run through the tasks for the second story.
+
+CC refined the 2nd story. No manual edits. I asked it to break the story down
+into tasks. Fine. Then added the story and the tasks as issues in GitHub.
+
+Prior to working on this story, I (manually) added/changed the folder
+structure, naming convention and the way the endpoints are registered. CC
+had no problems following the new patterns without any additional prompting
+or instructions.
+
+On one of the tasks, it committed (locally) to the main branch, rather than
+creating a feature branch. It caught it and corrected the issue itself. Probably
+need to add a rule preventing commits being pushed directly to the main branch.
+
+**Friction points:**
+It wanted to create separate issues for each task. I wanted the story to
+be added as well. This required additional guidance. Probably need to update
+the instructions to see if this can be the default behavior.
+
+It created a separate task for unit tests. I need the tests to be included
+in the task that creates the code. Again, need to update the instructions.
+
+**What worked well:**
+- Breaking down stories.
+- Following existing patterns.
+
+**Questions or ideas:**
+None
+
+Consumed 38% of available tokens (5 hour window)
+
 ## 2026-04-07 - Matt Edgar - Phase 1
 
 **Working on** First Story
