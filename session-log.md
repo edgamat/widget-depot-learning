@@ -1,3 +1,29 @@
+## 2026-04-11 - Matt Edgar - End of Phase 1
+
+**Working on** Adjusting Claude Code
+**Duration:** 2.0 hours
+
+**What happened:**
+I have completed the first phase of this learning exercise. Overall, I haven't had too many friction points to complain about. But there are a few things I want to adjust.
+
+I have now gone in and made several adjustments to Claude Code to see if there are improvements in the way CC behaves in the next phase.
+
+- I moved the major portions of the instructions from the CLAUDE.md file to separate files under the '/docs/standards' folder. I assume CC will use these
+files as needed, reducing the overall context size on any given task.
+- I adjusted the editor config file to my preferences
+- I added hooks for CC to run `dotnet format` before creating a new commit or creating a pull request.
+- I added guidance fo testing (unit) and for code (C#) design to hopfully minimize adjustments I need to make (or ask CC to make) as the code evolves.
+- I asked CC to include unit tests as part of completing tasks, not as a separate task. I also asked it to create an issue in GitHub for the story, as well as the individual tasks.
+
+**What worked well:**
+None
+
+**Questions or ideas:**
+None
+
+Consumed 16% of available tokens (5 hour window)
+
+
 ## 2026-04-10 - Matt Edgar - Phase 1
 
 **Working on** Second Story
