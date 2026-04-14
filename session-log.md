@@ -1,3 +1,30 @@
+## 2026-04-14 - Matt Edgar - Phase 2
+
+**Working on** Adjusting Claude Code
+**Duration:** 1.5 hours
+
+**What happened:**
+This is the first session with the new settings. It went smoothly. 
+
+It correctly created an issue in GitHub for the story.
+
+Each time CC attempt to make a pull request, it forgot to push the branch first.
+
+My hook to run dotnet format prior to each commit didn't work perfectly. It didn't re-stage the files
+that it changed. So CC helped me get that resolved.
+
+A bug was found in testing the work. I fixed the bug myself. Next time I need to let CC attempt a fix.
+
+**What worked well:**
+- Breaking down the story into tasks.
+- Following the existing patterns.
+
+**Questions or ideas:**
+None
+
+Consumed 41% of available tokens (5 hour window)
+
+
 ## 2026-04-11 - Matt Edgar - End of Phase 1
 
 **Working on** Adjusting Claude Code
