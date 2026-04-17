@@ -1,6 +1,33 @@
+## 2026-04-17 - Matt Edgar - Phase 2
+
+**Working on** Work on Customer Login/Logout Story
+**Duration:** 1.5 hours
+
+**What happened:**
+I worked with CC well today. I changed the settings.json file to allow CC more control over the workflow process. 
+
+If I want to get myself out of the role of orchestrator, I need to give CC more instructions on how to:
+- clean up the git branches when it is done
+- create cleaner commit messages when merging pull requests
+- update checklists in GitHub issues when the tasks are complete
+
+I noticed a few cases where the model is not using the patterns I would like. I'll need to fix that too.
+
+**What worked well:**
+The model (Sonnet) understands the Blazor and C# world quite well.
+
+**Questions or ideas:**
+There are a lot of security related decisions that I have not made yet. If this were a real project I would probably need to stop and reassess how users authenticate themselves. I think things are okay for this test project for now. But I plan on using these features as a way of asking CC to modify the authentication workflow later and see how it reacts. Not a test of CC as much as it is the models.
+
+How much of what I am seeing in productivity gains due to the model and how much is due to CC? I may want to change the model and see how the results differ. I feel like it is a combination of a capable model and the tooling to control the context (which is mostly what CC is doing) that makes the real difference.
+
+47% of my tokens consumed for one story? The "Pro Plan" is really a "Paid Free Plan". You really can't do anything serious without a high-tier plan.
+
+Consumed 47% of available tokens (5 hour window)
+
 ## 2026-04-14 - Matt Edgar - Phase 2
 
-**Working on** Adjusting Claude Code
+**Working on** Self Registration Story
 **Duration:** 1.5 hours
 
 **What happened:**
