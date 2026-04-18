@@ -1,3 +1,44 @@
+## 2026-04-18 - Matt Edgar - Phase 2
+
+**Working on** Work on Customer Profile Story
+**Duration:** 1.25 hours
+
+**What happened:**
+I noticed that CC was reading the existing files to determine the correct patterns to follow. I wonder if providing additional templates/skills would consume fewer tokens?
+
+I had to stop CC mid-story when it got 'lost' attempting to implement the first task that dealt with security.
+
+It implemented a horrible solution for making secure API calls from the Blazor code to the API Service.
+
+And I realize that the fault lies with me. I didn't properly define how the security should work. And the instructions I provided in the PRD were misleading.
+
+It churned on the task for a long time (32% of my 5 hour token limit) and produced gibberish. But honestly it was doing the best it could given the poor instructions.
+
+I'm going to have to regroup and think about how I want to address this. I could try to fix the instructions and make it work properly. Or I could get rid of all the security features and work with CC on other tasks. My goal here is to learn how to interact with CC, so the first option might be the best way to learn how to deal with failure.
+
+Interesting.... I asked Opus (4.7, all new and shiny) to create a plan for me using the Aspire starter app. It did what seems to be a great job. I asked it to adjust the plan so that I could included it in another project, include a reference to it from CLAUDE.md. And it did this very well.
+
+But then it "added useful memories" from this session. It created a document called "feedback_doc_deliverable.md" which says when user asks for a document to clarify if they want a reusable doc or a one-off doc. And it created a "project_aspireapp.md" document indicating that the solution is a start project for learning. It then wrapped these up in a MEMORY.md file:
+
+- [Doc deliverables are often reusable guidance](feedback_doc_deliverables.md) — "document X" may mean CLAUDE.md-ready rules, not an impl plan; clarify up front
+- [AspireApp is a guidance-doc scratchpad](project_aspireapp.md) — Aspire 13 + Blazor Server + API starter; output is often reusable docs, not running code
+
+Very interesting. Good to know I can use this techinique in the future to help ground CC.
+
+Now I need to figure out what to do with the Widget Depot project. I can add a reference to the new plan:
+
+```markdown
+See [docs/auth-rules.md](docs/auth-rules.md) for authentication standing rules.
+```
+
+But then what? I could make the changes the plan suggests manually. Or I could ask CC to make the adjustments. I think I will make the changes myself as a learning experience. I'll get things reworked up to the point of the Profile story. Then I'll let it start from there with the new plan and see how it does. But that will be for later, as I only have 20% of my token limit remaining.
+
+**What worked well:**
+
+**Questions or ideas:**
+
+Consumed 80% of available tokens (5 hour window)
+
 ## 2026-04-17 - Matt Edgar - Phase 2
 
 **Working on** Work on Customer Login/Logout Story
