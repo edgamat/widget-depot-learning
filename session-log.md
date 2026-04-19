@@ -1,7 +1,7 @@
 ## 2026-04-19 - Matt Edgar - Phase 2
 
 **Working on** Work on Customer Profile Story
-**Duration:** 1.25 hours
+**Duration:** 2.25 hours
 
 **What happened:**
 
@@ -21,10 +21,12 @@ With breaking down the story, Sonnet made reference to an implementation algorit
 
 
 **Questions or ideas:**
-This is the end of Milestone 1. I am goint to mark this as the end of Phase 2 as well. I am going to make some further adjustments to the CC instructions to remove/reduce some of the friction points.
+This is the end of Milestone 1. I am going to mark this as the end of Phase 2 as well. I am going to make some further adjustments to the CC instructions to remove/reduce some of the friction points.
 
 
 Consumed 59% of available tokens (5 hour window)
+
+Addressing some of the friction points consumed 31% of available tokens (5 hour window)
 
 ## 2026-04-18 - Matt Edgar - Phase 2
 
