@@ -1,3 +1,31 @@
+## 2026-04-19 - Matt Edgar - Phase 2
+
+**Working on** Work on Customer Profile Story
+**Duration:** 1.25 hours
+
+**What happened:**
+
+I abandoned all the work on issue 40 and ask CC to redo the work, this time using Opus instead of Sonnet.
+
+The result was a much better implementation. I think Sonnet could have done the work if I had given it better instructions.
+
+Using Opus cost 35% of my 5-hour token limit.
+
+I switched back to Sonnect to complete the rest of the tasks on the story.
+
+Oddly, on the last task, CC did not create a new branch for its code changes, nor did it commit the changes. 
+
+With breaking down the story, Sonnet made reference to an implementation algorithm (BCrypt for hashing passwords, rather than the PasswordHasher abstraction). I manually modified the story to be more clear.
+
+**What worked well:**
+
+
+**Questions or ideas:**
+This is the end of Milestone 1. I am goint to mark this as the end of Phase 2 as well. I am going to make some further adjustments to the CC instructions to remove/reduce some of the friction points.
+
+
+Consumed 59% of available tokens (5 hour window)
+
 ## 2026-04-18 - Matt Edgar - Phase 2
 
 **Working on** Work on Customer Profile Story
