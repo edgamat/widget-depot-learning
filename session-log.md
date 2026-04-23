@@ -1,3 +1,30 @@
+## 2026-04-21 - Matt Edgar - End of Phase 2
+
+**Working on** New Stories for Milestone 2
+**Duration:** 1.50 hours
+
+**What happened:**
+
+I had CC breakdown Milestone 2 into stories. In Milestone 1 I had CC only provide the title and description of each story. The scope, notes and acceptance criteria were added on-demand as the stories were worked. This tim I wanted ot see if it would save me time (and tokens) to do it differently.
+
+After the initial draft of the stories, I ended up asking CC to add 4 new stories to fill in some desired features. It also needed details on how to call the external API used to calculate shipping. I Was able to give it the API contracts and a fake endpoint. But without an actual shipping API, the stories won't be possible to implement fully.
+
+In addition, CC will require the format of the files it needs to create for sending the order data to the warehouse. That needs to be defined and added to the stories.
+
+For both the API and the file format I plan to use CC to create them, but not in the normal flow. I'm going to try using CC in a separate project (with different context) to get them ready for this project to consume.
+
+**What worked well:**
+
+Breaking down the milestone into stories worked well, including all the details. Doing it all at once used far fewer tokens that doing it on-demand. But I'm not sure if the quality of the output is as good. Time will tell.
+
+**Questions or ideas:**
+
+Upon further review, I noticed that some of the requirements that CC defined in the stories are not what I would like. I need to adjust some of the way it works. Again, I don't think this is a CC issue, but rather I was unable to provide CC with enough direction to write the stories correctly. But on the flip side, CC didn't ask me questions about how the features should work. It inferred desired behavior, rather than confirming with me. I have seen a few ways that folks have tried to overcome this outcome (e.g. the 'grill me' skill from Matt Pocock), so I am not alone in needing this ability from CC.
+
+In my next session I am going to try and see if CC can change the stories to match my expectations.
+
+Consumed 19% of available tokens (5 hour window)
+
 ## 2026-04-19 - Matt Edgar - Phase 2
 
 **Working on** Work on Customer Profile Story
@@ -11,7 +38,7 @@ The result was a much better implementation. I think Sonnet could have done the 
 
 Using Opus cost 35% of my 5-hour token limit.
 
-I switched back to Sonnect to complete the rest of the tasks on the story.
+I switched back to Sonnet to complete the rest of the tasks on the story.
 
 Oddly, on the last task, CC did not create a new branch for its code changes, nor did it commit the changes. 
 
@@ -53,7 +80,7 @@ But then it "added useful memories" from this session. It created a document cal
 - [Doc deliverables are often reusable guidance](feedback_doc_deliverables.md) — "document X" may mean CLAUDE.md-ready rules, not an impl plan; clarify up front
 - [AspireApp is a guidance-doc scratchpad](project_aspireapp.md) — Aspire 13 + Blazor Server + API starter; output is often reusable docs, not running code
 
-Very interesting. Good to know I can use this techinique in the future to help ground CC.
+Very interesting. Good to know I can use this technique in the future to help ground CC.
 
 Now I need to figure out what to do with the Widget Depot project. I can add a reference to the new plan:
 
@@ -137,7 +164,7 @@ I have now gone in and made several adjustments to Claude Code to see if there a
 files as needed, reducing the overall context size on any given task.
 - I adjusted the editor config file to my preferences
 - I added hooks for CC to run `dotnet format` before creating a new commit or creating a pull request.
-- I added guidance fo testing (unit) and for code (C#) design to hopfully minimize adjustments I need to make (or ask CC to make) as the code evolves.
+- I added guidance fo testing (unit) and for code (C#) design to hopefully minimize adjustments I need to make (or ask CC to make) as the code evolves.
 - I asked CC to include unit tests as part of completing tasks, not as a separate task. I also asked it to create an issue in GitHub for the story, as well as the individual tasks.
 
 **What worked well:**
