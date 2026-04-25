@@ -1,3 +1,25 @@
+## 2026-04-25 - Matt Edgar - Phase 3
+
+**Working on** Milestone 2 - Story 1 (New Order)
+**Duration:** 1.50 hours
+
+**What happened:**
+I changed my workflow. I created one issue in gitHub for the entire story, rather than separate issues for tasks. It did okay, but the PR it created was rather large (20 files, 900+ lines of code). I think it would be better for me to have CC break the story into 2 tasks, one for the backend (API changes) and one for the frontend (UI) changes.
+
+I noticed after the PR was created that there was a business rule embedded in the developer notes of the story. This rule was not one I wanted and it was part of 3 stories. I have CC rework the stories (I asked it to change the existing stories or create a new one, and it opted for changing the existing stories). At the end of the plan, it gave me a list of steps to apply the changes to the existing PR.
+
+The steps CC gave me were incomplete, it didn't give the proper steps to revert the EF Core migration, fix the data model and regenerate a new migration. It made a horrible mess of things. I ended up having to drop the docker volume and start the database over. I need to come up with a way for it to know what it should do when reversing an EF core migration.
+
+**What worked well:**
+Having CC do all the work in a single PR was okay. It consumed fewer tokens, but not a lot fewer.
+
+**Questions or ideas:**
+I need to pay more attention to the stories CC generates. That business rule in the developers nots should have been caught earlier.
+
+
+Consumed 58% of available tokens (5 hour window)
+
+
 ## 2026-04-21 - Matt Edgar - End of Phase 2
 
 **Working on** New Stories for Milestone 2
