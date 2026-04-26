@@ -1,5 +1,30 @@
 ## 2026-04-26 - Matt Edgar - Phase 3
 
+**Working on** Next Story (Addresses)
+**Duration:** 1.5 hours
+
+**What happened:**
+I refined the next story into an issue. I decided to split the story into 2 GitHub issues, one for the API work and one for the UI work. 
+
+I encountered (again) a case where the generated code was inconsistent with previous code. I believe this is because there were insufficient context instructions on how to write EF Core migrations.
+
+I fixed the issues and it was fine. 
+
+I am still contently getting prompted to allow common commands (very frustrating). I also noticed that CC is drifting when it comes to the commands it runs. I go through all this trouble to set permissions for specific commands and then CC decides (on a lark) to use different commands. -sigh-. It took 2 attempts to get the changes in place. A lot of wasted tokens. Hopefully this works.
+
+Since i am at 80% token usage, I am going to pick up things tomorrow.
+
+**What worked well:**
+
+**Questions or ideas:**
+
+I need to provide more guidance. It is making the same mistakes any new developer might make. But unlike a developer, it cannot learn once via verbal communication. We need to codify all instructions in files for it to consume. This is going to be a lot of work, but hopefully it will pay off.
+
+Consumed 65% of available tokens (5 hour window)
+
+
+## 2026-04-26 - Matt Edgar - Phase 3
+
 **Working on** Refactor
 **Duration:** 1 hours
 
