@@ -1,3 +1,20 @@
+## 2026-04-26 - Matt Edgar - Phase 3
+
+**Working on** Refactor
+**Duration:** 1 hours
+
+**What happened:**
+I noticed that a function had been cloned twice causing the codebase to have 3 copies of the same function. I asked CC to refactor the code to remove the duplication. It did fine.
+
+But it didn't create a branch in git before starting the changes. That directive is in the github workflow instructions which it didn't use for this refactor. I moved the directive to always use a feature branch to the main CLAUDE.md file to see if that would change the behavior. I'll see how it works the next time I have a similar change.
+
+**What worked well:**
+
+**Questions or ideas:**
+
+Consumed 12% of available tokens (5 hour window)
+
+
 ## 2026-04-25 - Matt Edgar - Phase 3
 
 **Working on** Milestone 2 - Story 1 (New Order)
