@@ -1,5 +1,43 @@
 ## 2026-04-26 - Matt Edgar - Phase 3
 
+**Working on** Same Story (Addresses)
+**Duration:** 1.5 hours
+
+**What happened:**
+I picked up where I left off. I asked CC to work on the 2nd issue for the address story. It (AGAIN!!!!) used the wrong command to query the github issue. I was at a loss for why it refused to follow the instructions I had provided in my workflow file (that I referred to in the CLAUDE.md file). I tried a couple things and it refused to change. I then recalled that at some time in the past phase, it added a 'memory' to not use a particular command. I found that memory in the ~/.claude/projects file. I deleted the memory file. It then reverted to using the command the memory told it to avoid. I was very frustrated. So I asked CC to never use the command and it added a different memory file. But still it refused to follow my instructions. So I updated the CLAUDE.md file with explicit instructions. And that made it work. I still don't know why it refused to use the instructions in the workflow file.
+
+I asked CC to tell me why it wasn't working. It said it was because my reference to the workflow file was more of a 'suggestion' than a directive. It recommended a change to the language.
+
+I changed it from this:
+
+```markdown
+refer to the [github-workflow](./docs/standards/github-workflow.md) for how to interact with the GitHub CLI when asked to work on issues.
+```
+
+to this:
+
+```markdown
+When working on a GitHub issue, you MUST read and follow [github-workflow](./docs/standards/github-workflow.md) before starting.
+```
+
+That seems to improved its behavior.
+
+I (finally) had CC work on the issue. It created the changes and when I tested them against the issue's test plan, one of the tests failed. I went back through and found that the acceptance criteria in the story and the instructions in the GitHub issue had drifted. There were some key details missing, which is why the test failed. I let CC know of the failed test and it made a new commit to add the missing functionality.
+
+When I looked at the functionality, it was an odd implementation. It didn't really make a lot of sense. So I asked it to refactor the change to more closely match the existing patterns in the code. And it did that to my satisfaction. Although I was so frustrated at this point I forgot to verify that the unit tests were done correctly. -sigh-
+
+**What worked well:**
+
+**Questions or ideas:**
+I am beginning to see the same patterns show up in my interactions with the LLM. It drifts away from things in small ways. And if you aren't paying attention, they can start adding up. This isn't uncommon when you don't use LLMs for assistance (aka a human team). But the LLMs need a significant amount of instructions to keep them from making the same mistakes over and over. A human will learn and retain that knowledge, even when it is not written down. LLMs aren't capable of that. They may never be.
+
+I am doing really quite simple tasks at the moment. And I am struggling to keep the LLM on task, producing good quality code efficiently and autonomously. I am not sure if I'll be able to give the LLM sufficient instructions to let it work with any less supervision than I would a human. I would not let a human work on story after story without reviews and feedback. Agentic workflows that give an LLM multiple stories to complete before a human reviews the output seems a long way off for me at the moment. But there are a lot of people that claim this is possible. I need to understand their process more and see if I can incorporate some of their ideas into my workflow.
+
+Consumed 83% of available tokens (5 hour window)
+
+
+## 2026-04-26 - Matt Edgar - Phase 3
+
 **Working on** Next Story (Addresses)
 **Duration:** 1.5 hours
 
