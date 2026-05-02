@@ -1,4 +1,26 @@
-## 2026-04-26 - Matt Edgar - Phase 3
+## 2026-05-02 - Matt Edgar - Phase 3
+
+**Working on** Same Story (Addresses)
+**Duration:** 1.5 hours
+
+**What happened:**
+I added my first custom skill. It is called `address-pr` and it is used to allow the agent to read the feedback on a pull request. It worked very well.
+
+I tried a new approach to creating issues in GitHub for a story. Here is the prompt:
+
+> create issues in github for this story. split the story into separate issues to make the tasks more straightforward for the resulting pull requests to be reviewed. when creating the issues, ensure the scope, developer notes and acceptance criteria remain intact: no drift, or changes to the content. verify the work by checking that the contents in each issue maps back to the story. Any changes should be corrected. Ask me any clarifying questions.
+
+The agent asked me questions and did a good job. I didn't find any instances of 'drift'. A big improvement over the previous efforts.
+
+**What worked well:**
+The new prompt worked well, as did the new skill.
+
+**Questions or ideas:**
+
+Consumed 84% of available tokens (5 hour window)
+
+
+## 2026-04-29 - Matt Edgar - Phase 3
 
 **Working on** Same Story (Addresses)
 **Duration:** 1.5 hours
