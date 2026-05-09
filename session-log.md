@@ -1,3 +1,26 @@
+## 2026-05-09 - Matt Edgar - Phase 3
+
+**Working on** Resume Orders
+**Duration:** 1.5 hours
+
+**What happened:**
+I used the same prompt as last time to convert the user story into issues. This time it created 4 issues. I think it did a good job breaking apart the story.
+
+I used the PR comments to provide feedback to the model. This worked well. 
+
+It didn't create a migration for a EF Core model change. I might need to add instructions for that. And how to properly reverse a migration if I need it to be redone.
+
+**What worked well:**
+- The new prompt worked well, again.
+- The skill to address PR feedback worked.
+
+**Questions or ideas:**
+
+This is the first time I have used CC since Anthropic doubled the 5-hour usage limit. I will be adding a second usage number that doubles the amount used so I can more easily compare to the values I have gathered so far.
+
+Consumed 31% of available tokens (5 hour window) (62% using old usage limits)
+
+
 ## 2026-05-02 - Matt Edgar - Phase 3
 
 **Working on** Same Story (Addresses)
