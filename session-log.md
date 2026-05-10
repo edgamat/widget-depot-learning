@@ -1,3 +1,31 @@
+## 2026-05-10 - Matt Edgar - Phase 3
+
+**Working on** Submit Order
+**Duration:** 1.5 hours
+
+**What happened:**
+I used the same prompt as last time to convert the user story into issues. This time it created 2 issues. I think it did a good job breaking apart the story.
+
+I used the PR comments to provide feedback to the model. This worked well. 
+
+I found some bugs from the last story that didn't get detected. But they were fixed easily.
+
+Here is a prompt I used to have the agent make some UI changes:
+
+> I'd like to make a change to the Submit step (Step 4). In the UI the product owner would like to have a total cost, including the estimated shipping. She would like to remove the weight and subtotal columns and replace them with the cost per item, a column with the sub-total per item (quantity * cost).  Then at the bottom, a sub total for all the items, a line for the shipping estimate (rather than being off by itself) and then a total cost of the order. She also requested that the "Submit Order" button be moved to the far right of the page, leaving the "Back" button on the far left.
+
+this is the first time that a session felt like it "flowed".
+
+**What worked well:**
+- The new prompt worked well, again.
+- The skill to address PR feedback worked.
+
+**Questions or ideas:**
+
+Consumed 45% of available tokens (5 hour window) (90% using old usage limits)
+
+
+
 ## 2026-05-09 - Matt Edgar - Phase 3
 
 **Working on** Resume Orders
