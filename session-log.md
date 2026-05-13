@@ -1,3 +1,24 @@
+## 2026-05-13 - Matt Edgar - Phase 3
+
+**Working on** 3 stories
+**Duration:** 2 hours
+
+**What happened:**
+
+I did 3 stories over 2 days. Asked CC to create issues in gitHub, work the stories, respond to feedback.
+
+Again, these sessions feel like they "flow".
+
+**What worked well:**
+- The new prompt worked well, again.
+- The skill to address PR feedback worked.
+
+**Questions or ideas:**
+- none
+
+Day 1- Consumed 13% of available tokens (5 hour window) (26% using old usage limits)
+Day 2- Consumed 27% of available tokens (5 hour window) (54% using old usage limits)
+
 ## 2026-05-10 - Matt Edgar - Phase 3
 
 **Working on** Submit Order
