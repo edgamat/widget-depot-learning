@@ -1,3 +1,23 @@
+## 2026-05-16 - Matt Edgar - Phase 3
+
+**Working on** 2 stories
+**Duration:** 2 hours
+
+**What happened:**
+
+Had another good session. I changed my prompt to create issue in GitHub slightly different to use my issue splitting instructions:
+
+> create one or more issues in github for this story. split the story using `/docs/standards/issue-splitting.md`. when creating the issues, ensure the scope, developer notes and acceptance criteria remain intact: no drift, or changes to the content. verify the work by checking that the contents in each issue maps back to the story. Any changes should be corrected. Ask me any clarifying questions.
+
+**What worked well:**
+- Good flow
+
+**Questions or ideas:**
+- none
+
+Consumed 32% of available tokens (5 hour window) (64% using old usage limits)
+
+
 ## 2026-05-13 - Matt Edgar - Phase 3
 
 **Working on** 3 stories
