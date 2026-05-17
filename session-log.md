@@ -1,3 +1,57 @@
+## 2026-05-17 - Matt Edgar - Phase 3
+
+**Working on** 3 stories
+**Duration:** 2 hours
+
+**What happened:**
+
+I encountered a story that wasn't refined. It only had an initial description written. I asked CC to help refine the story:
+
+> This story was added to this milestone but it did not get the usual refinement treatment. help me refine this story. Although ii doesn't match up perfectly, use the process described in this file: .claude/skills/refine-milestone/SKILL.md
+
+I wanted to see how it might make use of the new skills I have added (but not yest used)
+
+I noted that CC cannot find the source code on the first try. It doesn't understand that the source code is in a /src/ folder. I must have some instructions that are out of date.
+
+It suggested, and I added, the following to the `CLAUDE.md` file:
+
+```markdown
+## Source Layout
+
+All project source lives under `src/`. The main web app is `src/WidgetDepot.Web/`. See [architecture](./docs/standards/architecture.md) for the full folder structure.
+```
+
+We'll see if it helps.
+
+I also asked it to look for things we might hard-code, rather than have it figure out on its own:
+
+> I wonder if I can update the instructions to claude code by providing it details it would normally have to scan the repo to find, or would need to run the `gh` tool to retrieve? Scan the skills (./.claude/**) and standards (./docs/standards/**) and look for possible invariants we could hard-code into the CLAUDE.md file.
+
+Honestly it came back with a lot of stuff I didn't think was a good idea, save one. I adjusted the way it determines the repo:
+
+```markdown
+### When using the `gh` command line tool
+
+- When specifying `--repo`, always use the literal value 'edgamat/widget-depot' — never use `$(...)` subshell substitution and never parse the repo name from `git remote get-url origin`
+```
+
+**What worked well:**
+- Good flow
+
+**Questions or ideas:**
+- I wonder if it would be 'better' for me to tell CC that the name of the repo is `edgamat/widget-depot` so it doesn't have to figure it out on its own?
+
+Consumed 36% of available tokens (5 hour window) (64% using old usage limits)
+
+**NOTE** This completes Milestone #2, and Phase #3. I am going to make some significant changes for Phase 4:
+
+- I am going to try my new workflow for moving from high level milestone goals to stories and issues. 
+- I will be switching to a different subscription plan that may change my usage numbers.
+- I will be begin incorporating integrations tests using Playwright. I will ask CC to generate integration tests for most acceptance criteria.
+
+Looking forward to see how it all works. My goal is to move more autonomy to CC, where I mostly just review pull requests.
+
+
 ## 2026-05-16 - Matt Edgar - Phase 3
 
 **Working on** 2 stories
