@@ -1,3 +1,25 @@
+## 2026-05-24 - Matt Edgar - Phase 4
+
+**Working on** Grooming Milestone 3
+**Duration:** 2 hours
+
+**What happened:**
+
+I used my new skills to refine the stories for Milestone 3. Overall, it went well.
+
+I found that CC found a few edge cases I hadn't considered. It helped me get a better understanding of 
+what I wanted. I was able to make adjustments across the multiple stories in the milestone. It worked.
+
+**What worked well:**
+
+**Questions or ideas:**
+
+Consumed 43% of available tokens (5 hour window) (86% using old usage limits)
+
+I will be switching from my personal CC subscription to using the one provided by my company.
+
+The first thing I plan on doing is working on incorporating Playwright tests. Wish me luck!
+
 ## 2026-05-17 - Matt Edgar - Phase 3
 
 **Working on** 3 stories
