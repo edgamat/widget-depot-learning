@@ -1,3 +1,45 @@
+## 2026-05-29/30 - Matt Edgar - Phase 4
+
+**Working on** Milestone 3 Stories
+**Duration:** 2 hours (over 2 days)
+
+**What happened:**
+
+I worked on all the stories in Milestone 3. It did a really good job with incorporating a new 
+Docker container (fake ftp server) into the Aspire App Host.
+
+I noticed that there were a few cases of duplicate code:
+ - parsing the pickup directory from the configuration data
+ - generating the order transmittal file name from the order id
+
+In both cases I asked CC to remove this duplication. It handled it perfectly.
+
+**What worked well:**
+
+This is the first time I used the new Milestone/Story layout in GitHub. It worked well.
+
+**Questions or ideas:**
+
+Consumed 47% of available tokens (5 hour window) (94% using old usage limits)
+
+## 2026-05-28 - Matt Edgar - Phase 4
+
+**Working on** Add Playwright E2E tests
+**Duration:** 2 hours
+
+**What happened:**
+
+I added a new project to the codebase that will run playwright tests against the web application.
+
+I decided on using TypeScript because I wanted to practice using TypeScript again (it has been a while).
+
+It took some time to figure out how to get the tests to work with Blazor. CC sent me down some rabbit holes
+but we eventually figured it out.
+
+**What worked well:**
+
+**Questions or ideas:**
+
 ## 2026-05-24 - Matt Edgar - Phase 4
 
 **Working on** Grooming Milestone 3
