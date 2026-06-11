@@ -1,6 +1,33 @@
 ## 2026-05-29/30 - Matt Edgar - Phase 4
 
 **Working on** Milestone 3 Stories
+**Duration:** 3 hours (over 2 days)
+
+**What happened:**
+
+I created all the stories for Milestone 4. No real issues. Felt natural to collaborate with CC to
+get the refined and loaded into GitHub. I did not track token usage or how long this took.
+
+I worked on the first story in Milestone 4. It was largely UI related and CC didn't do the best of
+jobs. I had to get it to add the correct CSS in a couple of places that it had missed. Once I saw
+the UI I decided it was not what I wanted. This happens a lot in real projects, so I prompted CC
+playing the role of a business analyst communicating feedback from the product owner.
+
+> We presented these changes to the product owner and they have changed how they would like the admin features to work. Rather than having a separate layout and nav menu, she would like to have admin and non admin users share a common layout. The admin navigation links would be hidden for non admins and show to admins. She didn't see any value in having a distinct look for the admin section. She apologized for asking us to make these changes but she only realized what she wanted after seeing them demonstrated to her. Help me create a new story in Milestone 4 to address this feedback. Ask me any clarifying questions you'd like.
+
+The response from CC with a new story was great. I chose to use Opus for this work, rather than Sonnet.
+
+**What worked well:**
+
+Collaborating with CC.
+
+**Questions or ideas:**
+
+Consumed 26% of available tokens (5 hour window)
+
+## 2026-05-29/30 - Matt Edgar - Phase 4
+
+**Working on** Milestone 3 Stories
 **Duration:** 2 hours (over 2 days)
 
 **What happened:**
