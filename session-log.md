@@ -1,3 +1,42 @@
+## 2026-06-14 - Matt Edgar - Phase 5
+
+**Working on** Milestone 5 Stories
+**Duration:** 1.5 hours
+
+**What happened:**
+
+Refined the stories for Milestone 5
+
+**What worked well:**
+
+Collaborating with CC.
+
+**Questions or ideas:**
+
+Consumed 6% of available tokens (5 hour window)
+
+## 2026-06-14 - Matt Edgar - Phase 4
+
+**Working on** Milestone 4 Stories
+**Duration:** 3 hours (over 2 days)
+
+**What happened:**
+
+Completed the remaining stories for Milestone 4. Everything felt very fluid and natural. No issues to report.
+
+After all these stories were done, I collaborated with CC to refactor the code in a few places to reduce
+duplication. It worked pretty well. More and more I am encountering issues only when I run the application,
+not when reviewing the pull requests. I am building out more E2E tests using Playwright. In the next 
+(and final!) phase/milestone, I plan on getting CC to add/run Playwright tests with each story.
+
+**What worked well:**
+
+Collaborating with CC.
+
+**Questions or ideas:**
+
+Consumed 57% of available tokens (5 hour window)
+
 ## 2026-05-29/30 - Matt Edgar - Phase 4
 
 **Working on** Milestone 3 Stories
