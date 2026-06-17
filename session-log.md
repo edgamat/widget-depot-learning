@@ -1,4 +1,50 @@
-## 2026-06-14 - Matt Edgar - Phase 5
+## 2026-06-17 - Matt Edgar - Phase 5
+
+**Working on** Milestone 5 Stories
+**Duration:** 1.5 hours
+
+**What happened:**
+
+Before starting on the stories in Milestone 5, I gave CC this prompt (Plan Mode, Opus):
+
+> Every time I ask Claude Code to work on a GitHub issue, it includes unit tests. I am not sure if that is due to the nature of the models, or if I have given explicit instructions to do so. Regardless, I want it to also write Playwright E2E tests for the acceptance criteria each time it works on an issue. Determine an appropriate means to provide these instructions.
+
+It said my instructions were close, but not quite to the point where they were asking the model to
+write the tests. Here is what it suggested be added to the instructions:
+
+```markdown
+## Definition of Done
+
+An issue is not complete until all of the following are true:
+
+- The acceptance criteria are implemented.
+- Unit tests cover the new/changed behavior (see [testing](./testing.md)).
+- **Playwright E2E tests cover the issue's acceptance criteria.** For each acceptance
+  criterion that is observable in the UI, there is a corresponding end-to-end test (or an
+  assertion within one) under `tests/WidgetDepot.E2E`. When writing these tests you MUST
+  follow the `playwright-add-tests` skill — do not write free-form specs.
+- All checks in [Before Creating a Commit](#before-creating-a-commit) pass.
+- Acceptance-criteria checkboxes are ticked off on the issue.
+
+If a criterion genuinely cannot be exercised end-to-end (e.g. a pure backend/data concern
+with no UI surface), note why in an issue comment instead of silently skipping it.
+```
+Consumed 5% of available tokens (5 hour window) to generate this change.
+
+I asked CC to work on the first issue in Milestone 5. It did its normal thing AND it wrote new E2E
+tests! Success!
+
+**What worked well:**
+
+The changes to the instructions now mean that CC will generate E2E test for each story it works on.
+
+**Questions or ideas:**
+
+If I moved all this to GitHub Copilot, how much of the instructions would need to be re-written?
+
+Consumed 10% of available tokens (5 hour window) - not including the DoD change
+
+## 2026-06-16 - Matt Edgar - Phase 5
 
 **Working on** Milestone 5 Stories
 **Duration:** 1.5 hours
