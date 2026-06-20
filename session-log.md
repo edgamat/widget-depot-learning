@@ -1,3 +1,56 @@
+## 2026-06-20 - Matt Edgar - Phase 5
+
+**Working on** Issue 157/158 (Problem Report)
+**Duration:** 1.5 hours
+
+**What happened:**
+
+After responding to feedback from the reviewer, CC did not rerun the E2E tests. I need to update
+the instructions.
+
+I realized I don't have a logging standards document. I'll need to include guidance on what
+needs to be logged. And more importantly, what tracing to add in order to have proper observability.
+
+**What worked well:**
+
+I spent a good amount of time prepping a story that would need to add a new docker container. CC
+knocked it out of the park.
+
+
+**Questions or ideas:**
+
+Consumed 14% of available tokens (5 hour window)
+
+
+## 2026-06-19 - Matt Edgar - Phase 5
+
+**Working on** Issue 157 (Problem Report)
+**Duration:** 1.5 hours
+
+**What happened:**
+
+I asked CC to work on issue 157. It did its normal thing. The resulting PR was too large to review.
+
+It was my own fault. I should have refined the story into smaller issues. For example, one issue to
+apply the database changes. One to apply the UI changes and a 3rd one to add E2E tests. Maybe? I don't
+know exactly, but I wrote a skill to do this sort of breakdown and I didn't use it.
+
+The frontend component CC created was for a wizard with a couple of steps. It created a single component,
+which is fine, but it is a large component. I would have preferred each step of the wizard to be a separate
+component to make things easier to read and understand. I need to improve my design guidance for such things.
+
+One of the E2E tests fails intermittently. I asked CC to try and improve it, and it did a good job 
+of identifying the problem and correcting it.
+
+**What worked well:**
+
+
+**Questions or ideas:**
+
+
+Consumed 15% of available tokens (5 hour window)
+
+
 ## 2026-06-17 - Matt Edgar - Phase 5
 
 **Working on** Milestone 5 Stories
